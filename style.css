@@ -1,0 +1,296 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation bar starting css */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00c6fb;
+    border-top: none;
+    border: 3px solid blue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 1px 10px 2px blue;
+    
+}
+#name{
+    display: flex;
+    align-items: center;
+}
+
+#name a{
+    display: contents;
+}
+
+.navbar img{
+    width: 8%;
+}
+#bold{
+    font-weight: bold;
+    font-size: 22px;
+}
+#bold:hover{
+    cursor: pointer;
+    color:whitesmoke;
+    transition-delay: 0.1;
+    transition-duration: 0.3s;
+}
+.navbar ul{
+    display: flex;
+    /* margin-left: 20px; */
+    padding-right: 30px;
+    
+}
+.navbar ul li a{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    
+    
+    
+}
+ul li a:hover{
+    color:blue;
+    transition-delay: 0.1s;
+    transition-duration: 0.3s;
+   
+    
+    
+}
+li {
+    list-style: none;
+}
+/* first background pic css */
+.pic1 img{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 73px;
+    filter: blur(3px);
+}
+/* welcome .... text css */
+.pic1Text{
+    position: absolute;
+    top: 70px;
+    color: white;
+    padding: 5px;
+
+}
+.pic1Text h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 35px;
+
+}
+/* css of text after welcome */
+.pic1Text h2{
+    color:white;
+    text-align: center;
+    font-size: 28px;
+}
+/* hover effect on text welcome */
+.pic1Text h1:hover{
+    color: black;
+    cursor: default;
+    font-size: 60px;
+    transition-delay: 0.1s;
+    transition-duration: 0.6s;
+    
+}
+/* hover effect on text written after welcome */
+.pic1Text h2:hover{
+    color: black;
+    cursor: default;
+    transition-delay: 0.1s;
+    transition-duration: 0.1s;
+}
+
+/* css of statue of liberty pic */
+.pic3 img{
+    top: 600px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    filter: blur(0px);
+}
+
+.pic3 img:hover{
+    cursor: pointer;
+    
+}
+/* css on USA & Statue... */
+.pic3Text{
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top:950px;
+    margin-left: 90px;
+    
+}
+.pic3Text:hover{
+    color:black;
+    cursor: pointer;
+}
+/* css on the pic of maldive beach repeated same with the only difference of margin left */
+.pic4 img{
+    top: 600px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: 490px;
+    margin-bottom: 50px;
+    filter: blur(0px);
+}
+
+.pic4 img:hover{
+    cursor: pointer;
+    
+}
+/* css on text... */
+.pic4Text{
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top:950px;
+    margin-left: 490px;
+    
+}
+.pic4Text:hover{
+    color:black;
+    cursor: pointer;
+}
+/* Css on the pic of pakistan repeated same with the only difference of margin left */
+
+.pic5 img{
+    top: 600px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: 890px;
+    margin-bottom: 50px;
+    filter: blur(0px);
+}
+
+.pic5 img:hover{
+    cursor: pointer;
+    
+}
+/* css on text... */
+.pic5Text{
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top:950px;
+    margin-left: 890px;
+    
+}
+.pic5Text:hover{
+    color:black;
+    cursor: pointer;
+}
+/* PIC 6 CSS DUBAI */
+.pic6 img{
+    top: 1100px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    filter: blur(0px);
+}
+
+.pic6 img:hover{
+    cursor: pointer;
+    
+}
+/* css on text... */
+.pic6Text{
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top:1450px;
+    margin-left: 90px;
+    
+}
+.pic6Text:hover{
+    color:black;
+    cursor: pointer;
+}
+/* CANADA CSS */
+.pic7 img{
+    top: 1100px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: 490px;
+    margin-bottom: 50px;
+    filter: blur(0px);
+}
+
+.pic7 img:hover{
+    cursor: pointer;
+    
+}
+/* css on text... */
+.pic7Text{
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top:1450px;
+    margin-left: 490px;
+    
+}
+.pic7Text:hover{
+    color:black;
+    cursor: pointer;
+}
+/* MALASYIA RESORT */
+.pic8 img{
+    top: 1100px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: 890px;
+    margin-bottom: 50px;
+    filter: blur(0px);
+}
+
+.pic8 img:hover{
+    cursor: pointer;
+    
+}
+/* css on text... */
+.pic8Text{
+    color: red;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top:1450px;
+    margin-left: 890px;
+    
+}
+.pic8Text:hover{
+    color:black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
